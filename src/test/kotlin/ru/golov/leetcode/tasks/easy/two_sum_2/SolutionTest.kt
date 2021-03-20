@@ -6,25 +6,49 @@ import kotlin.test.assertTrue
 internal class SolutionTest {
 
     @Test
-    fun maxProfitTest1() {
+    fun maxProfitBinarySearchTest1() {
         val solution = Solution()
-        val result = solution.twoSum(intArrayOf(2, 7, 11, 15), 9)
+        val result = solution.twoSumBinarySearch(intArrayOf(2, 7, 11, 15), 9)
 
         assertTrue(intArrayOf(0, 1).contentEquals(result))
     }
 
     @Test
-    fun maxProfitTest2() {
+    fun maxProfitBinarySearchTest2() {
         val solution = Solution()
-        val result = solution.twoSum(intArrayOf(2, 3, 4), 6)
+        val result = solution.twoSumBinarySearch(intArrayOf(2, 3, 4), 6)
 
         assertTrue(intArrayOf(0, 2).contentEquals(result))
     }
 
     @Test
-    fun maxProfitTest3() {
+    fun maxProfitBinarySearchTest3() {
         val solution = Solution()
-        val result = solution.twoSum(intArrayOf(-1, 0), -1)
+        val result = solution.twoSumBinarySearch(intArrayOf(-1, 0), -1)
+
+        assertTrue(intArrayOf(0, 1).contentEquals(result))
+    }
+
+    @Test
+    fun maxProfitTwoPointerTest1() {
+        val solution = Solution()
+        val result = solution.twoSumTwoPointers(intArrayOf(2, 7, 11, 15), 9)
+
+        assertTrue(intArrayOf(0, 1).contentEquals(result))
+    }
+
+    @Test
+    fun maxProfitTwoPointerTest2() {
+        val solution = Solution()
+        val result = solution.twoSumTwoPointers(intArrayOf(2, 3, 4), 6)
+
+        assertTrue(intArrayOf(0, 2).contentEquals(result))
+    }
+
+    @Test
+    fun maxProfitTwoPointerTest3() {
+        val solution = Solution()
+        val result = solution.twoSumTwoPointers(intArrayOf(-1, 0), -1)
 
         assertTrue(intArrayOf(0, 1).contentEquals(result))
     }
