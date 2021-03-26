@@ -114,4 +114,59 @@ internal class SolutionTest {
 
         assertEquals(listOf(1, 2), result)
     }
+
+    @Test
+    fun inorderTraversalIterative1() {
+        val root = TreeNode(1)
+
+        root.right = TreeNode(2)
+        root.right?.left = TreeNode(3)
+
+        val solution = Solution()
+        val result = solution.inorderTraversalIterative(root)
+
+        assertEquals(listOf(1, 3, 2), result)
+    }
+
+    @Test
+    fun inorderTraversalIterative2() {
+        val solution = Solution()
+        val result = solution.inorderTraversalIterative(null)
+
+        assertEquals(listOf(), result)
+    }
+
+    @Test
+    fun inorderTraversalIterative3() {
+        val root = TreeNode(1)
+
+        val solution = Solution()
+        val result = solution.inorderTraversalIterative(root)
+
+        assertEquals(listOf(1), result)
+    }
+
+    @Test
+    fun inorderTraversalIterative4() {
+        val root = TreeNode(1)
+
+        root.left= TreeNode(2)
+
+        val solution = Solution()
+        val result = solution.inorderTraversalIterative(root)
+
+        assertEquals(listOf(2, 1), result)
+    }
+
+    @Test
+    fun inorderTraversalIterative5() {
+        val root = TreeNode(1)
+
+        root.right= TreeNode(2)
+
+        val solution = Solution()
+        val result = solution.inorderTraversalIterative(root)
+
+        assertEquals(listOf(1, 2), result)
+    }
 }
