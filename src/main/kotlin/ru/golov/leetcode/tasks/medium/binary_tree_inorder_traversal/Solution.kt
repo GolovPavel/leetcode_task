@@ -1,4 +1,4 @@
-package ru.golov.leetcode.tasks.medium.inorder_traversal
+package ru.golov.leetcode.tasks.medium.binary_tree_inorder_traversal
 
 import java.util.Stack
 

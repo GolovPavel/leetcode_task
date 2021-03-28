@@ -1,4 +1,4 @@
-package ru.golov.leetcode.tasks.medium.level_order_traversal
+package ru.golov.leetcode.tasks.medium.binary_tree_level_order_traversal
 
 import java.util.LinkedList
 import java.util.Queue
