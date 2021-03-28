@@ -6,7 +6,7 @@ import kotlin.test.assertEquals
 internal class SolutionTest {
 
     @Test
-    fun inorderTraversalRecursive11() {
+    fun inorderTraversalRecursiveTest11() {
         val root = TreeNode(1)
 
         root.right = TreeNode(2)
@@ -19,7 +19,7 @@ internal class SolutionTest {
     }
 
     @Test
-    fun inorderTraversalRecursive12() {
+    fun inorderTraversalRecursiveTest12() {
         val solution = Solution()
         val result = solution.inorderTraversalRecursive(null)
 
@@ -27,7 +27,7 @@ internal class SolutionTest {
     }
 
     @Test
-    fun inorderTraversalRecursive13() {
+    fun inorderTraversalRecursiveTest13() {
         val root = TreeNode(1)
 
         val solution = Solution()
@@ -37,7 +37,7 @@ internal class SolutionTest {
     }
 
     @Test
-    fun inorderTraversalRecursive14() {
+    fun inorderTraversalRecursiveTest14() {
         val root = TreeNode(1)
 
         root.left= TreeNode(2)
@@ -49,7 +49,7 @@ internal class SolutionTest {
     }
 
     @Test
-    fun inorderTraversalRecursive15() {
+    fun inorderTraversalRecursiveTest15() {
         val root = TreeNode(1)
 
         root.right= TreeNode(2)
@@ -61,7 +61,7 @@ internal class SolutionTest {
     }
 
     @Test
-    fun inorderTraversalRecursive21() {
+    fun inorderTraversalRecursiveTest21() {
         val root = TreeNode(1)
 
         root.right = TreeNode(2)
@@ -74,7 +74,7 @@ internal class SolutionTest {
     }
 
     @Test
-    fun inorderTraversalRecursive22() {
+    fun inorderTraversalRecursiveTest22() {
         val solution = Solution()
         val result = solution.inorderTraversalRecursive2(null)
 
@@ -82,7 +82,7 @@ internal class SolutionTest {
     }
 
     @Test
-    fun inorderTraversalRecursive23() {
+    fun inorderTraversalRecursiveTest23() {
         val root = TreeNode(1)
 
         val solution = Solution()
@@ -92,7 +92,7 @@ internal class SolutionTest {
     }
 
     @Test
-    fun inorderTraversalRecursive24() {
+    fun inorderTraversalRecursiveTest24() {
         val root = TreeNode(1)
 
         root.left= TreeNode(2)
@@ -104,7 +104,7 @@ internal class SolutionTest {
     }
 
     @Test
-    fun inorderTraversalRecursive25() {
+    fun inorderTraversalRecursiveTest25() {
         val root = TreeNode(1)
 
         root.right= TreeNode(2)
@@ -116,7 +116,7 @@ internal class SolutionTest {
     }
 
     @Test
-    fun inorderTraversalIterative1() {
+    fun inorderTraversalIterativeTest1() {
         val root = TreeNode(1)
 
         root.right = TreeNode(2)
@@ -129,7 +129,7 @@ internal class SolutionTest {
     }
 
     @Test
-    fun inorderTraversalIterative2() {
+    fun inorderTraversalIterativeTest2() {
         val solution = Solution()
         val result = solution.inorderTraversalIterative(null)
 
@@ -137,7 +137,7 @@ internal class SolutionTest {
     }
 
     @Test
-    fun inorderTraversalIterative3() {
+    fun inorderTraversalIterativeTest3() {
         val root = TreeNode(1)
 
         val solution = Solution()
@@ -147,7 +147,7 @@ internal class SolutionTest {
     }
 
     @Test
-    fun inorderTraversalIterative4() {
+    fun inorderTraversalIterativeTest4() {
         val root = TreeNode(1)
 
         root.left= TreeNode(2)
@@ -159,7 +159,7 @@ internal class SolutionTest {
     }
 
     @Test
-    fun inorderTraversalIterative5() {
+    fun inorderTraversalIterativeTest5() {
         val root = TreeNode(1)
 
         root.right= TreeNode(2)
