@@ -18,4 +18,18 @@ internal class SolutionTest {
 
         assertEquals(3, result)
     }
+
+    @Test
+    fun climbStairsDynamicallyTest1() {
+        val result = Solution().climbStairsDynamically(2)
+
+        assertEquals(2, result)
+    }
+
+    @Test
+    fun climbStairsDynamicallyTest2() {
+        val result = Solution().climbStairsDynamically(3)
+
+        assertEquals(3, result)
+    }
 }

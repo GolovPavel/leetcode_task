@@ -29,6 +29,14 @@ class Solution {
     }
 
     fun climbStairsDynamically(n: Int): Int {
-        TODO()
+        val stairs = IntArray(n + 1)
+        stairs[1] = 1
+        stairs[2] = 2
+
+        for (i in 3..n) {
+            stairs[i] = stairs[i - 1] + stairs[i - 2]
+        }
+
+        return stairs[n]
     }
 }
