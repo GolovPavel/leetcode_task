@@ -29,6 +29,10 @@ class Solution {
     }
 
     fun climbStairsDynamically(n: Int): Int {
+        if (n == 1) {
+            return 1
+        }
+
         val stairs = IntArray(n + 1)
         stairs[1] = 1
         stairs[2] = 2
