@@ -1,4 +1,4 @@
-package ru.golov.leetcode.tasks.easy.binary_search
+package ru.golov.leetcode.tasks.easy.binary_search_algorithms.binary_search
 
 class Solution {
 
