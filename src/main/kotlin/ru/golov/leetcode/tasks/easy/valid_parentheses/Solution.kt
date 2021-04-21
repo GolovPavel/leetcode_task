@@ -21,7 +21,7 @@ class Solution {
     }
 
     companion object {
-        val BRACKETS: Map<Char, Char> = mutableMapOf(
+        val BRACKETS: Map<Char, Char> = mapOf(
             '}' to '{',
             ']' to '[',
             ')' to '('
