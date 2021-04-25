@@ -1,6 +1,8 @@
-package ru.golov.leetcode.tasks.easy.best_time_to_buy_sell_stock_countdown;
+package ru.golov.leetcode.tasks.medium.best_time_to_buy_sell_stock_countdown;
 
 class Solution {
+
+    // 3 states: rest, hold, sold
     public int maxProfit(int[] prices) {
 
         var rest = new int[prices.length];
